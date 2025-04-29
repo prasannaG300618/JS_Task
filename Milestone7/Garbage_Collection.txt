@@ -1,0 +1,17 @@
+n JavaScript, Garbage Collection (GC) is an automatic memory management feature that helps free up memory that is no longer needed by a program.
+ JavaScript uses a garbage collector to identify and remove unused objects,
+ ensuring efficient memory usage and preventing memory leaks.
+
+ Garbage collection refers to the process of automatically reclaiming memory occupied by objects that are no longer accessible. Since JavaScript manages memory allocation dynamically,
+  developers don’t need to manually allocate or free memory like in low-level languages
+
+  JavaScript stores variables and objects in memory (the heap) during program execution.
+The engine tracks objects and variables in use, with unused ones becoming unreachable.
+Unreachable objects are automatically detected and removed by the JavaScript engine through garbage collection.
+Garbage collection runs in the background, periodically freeing memory by removing unused objects.
+It happens automatically, so developers don’t need to manage memory manually, preventing memory leaks.
+
+imortant
+Prevents memory leaks.
+Improves application performance.
+Frees up unused memory, optimizing resource usage.

@@ -1,0 +1,6 @@
+Mark and Sweep:
+Mark and Sweep algorithm
+Root: In general, a root is a global variable that is used in the code. A window object in javascript can act as a   root. This algorithm uses global object root to find whether the objects are reachable or unreachable.
+This algorithm then monitors every root and also their children.
+ While monitoring, some objects which are reachable are marked and remaining objects which are unreachable are unmarked, based on the provided conditions.
+ The objects which are unmarked, that means which are unreachable will be garbage collected. 

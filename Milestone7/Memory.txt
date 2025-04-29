@@ -1,0 +1,6 @@
+Understanding Memory Life Cycle
+Regardless of the programming language, the memory life cycle follows three main steps:
+
+Allocate the memory you need – Memory is allocated when variables, objects, or functions are created.
+Use the allocated memory – The allocated memory is used during execution (reading/writing operations).
+Release the allocated memory – Once it is no longer needed, it should be released (garbage collected).

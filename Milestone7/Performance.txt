@@ -1,0 +1,8 @@
+How Garbage Collection Affects Performance
+Garbage collection is essential, but it can also slow down your app. Here’s how:
+
+1. Pause Time: When garbage collection runs, it pauses your app. These "stop-the-world" events can cause noticeable lags if they happen too often or take too long.
+
+2. CPU Usage: Garbage collection uses CPU resources. Frequent cycles can make your app use more CPU, affecting overall performance.
+
+3. Memory Fragmentation: If memory is allocated and freed inefficiently, it can become fragmented. This fragmentation can slow down memory allocation and increase garbage collection frequency.
